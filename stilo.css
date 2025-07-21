@@ -28,6 +28,7 @@ justify-content: center;
 }
 .aBtn{
     background-color: azure;
+    color: rgb(0, 0, 171);
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.3em;
     font-size: 35px;
