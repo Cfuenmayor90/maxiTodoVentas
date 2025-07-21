@@ -23,7 +23,7 @@
 justify-content: center;
     height: 500px;
     width: 450px;
-    margin: auto auto 200px auto;
+    margin: auto auto 100px auto;
     text-align: left;
 }
 .aBtn{
@@ -59,8 +59,8 @@ justify-content: center;
     justify-content: center;
     height: auto;
     width: 80%;
-    height: 1000px;
-    margin: 300px auto 1000px auto;
+    height: 700px;
+    margin: 200px auto 1000px auto;
     text-align: left;
 }
 .imgBtn{
