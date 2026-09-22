@@ -1,42 +1,817 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>MaxiTodo</title>
-        <link rel="stylesheet" href="/stilo.css">
-        <link rel="icon" href="/img/logo.png" type="image/x-icon">
-        <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1558061935844293');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1558061935844293&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-        
-    </head>
-    <body class="bd">
-        <header class="header">
-            <img src="/img/logo MaxiTodo.png" alt="" class="imgLogo">
-        </header>
-<div class="divContBtn">
-     <div class="divBtn"></div>
-      <a href="https://maps.app.goo.gl/nEZTEtHFdL5z2R7w9" class="aBtn"><img src="/img/ubicacion.png" class="imgBtn" alt=""> Ubicacion</a>
-    <a href="https://proyectofinal-production-a7fb.up.railway.app/products/productosUsuarios" class="aBtn"><img src="/img/catalogo.png" class="imgBtn" alt=""> Catalogo De Productos</a>
-    <a href="https://www.tiktok.com/@maxitodo312?_r=1&_t=ZS-95xXA9aYKB7" class="aBtn"><img src="/img/tik-tok (1).png" class="imgBtn" alt=""> Tik Tok</a>
-    <a href="https://www.facebook.com/share/16mCenbHYz/" class="aBtn"><img src="/img/facebook.png" class="imgBtn" alt=""> Facebock</a>
-    <a href="https://www.instagram.com/maxitodo_312?igsh=MTN5dXI4bHV6MmJhaw== " class="aBtn"><img src="/img/insta.png" class="imgBtn" alt=""> Instagram</a>
-    <a href="https://wa.me/5493855349020" class="aBtn"><img src="/img/wa.png" class="imgBtn" alt=""> WhatsApp</a>
-    <a href="https://chat.whatsapp.com/KSLeiGsuR5E15utcWCIeez?mode=r_t" class="aBtn"><img src="/img/grupo.png" class="imgBtn" alt=""> Grupo De WhatsApp</a>
-</div>
+<html lang="es">
 
-    </body>
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>MaxiTodo | Equipamiento Comercial y Electrodomésticos</title>
+
+    <meta
+        name="description"
+        content="MaxiTodo - Equipamiento comercial y electrodomésticos para el hogar. Comprá en cuotas diarias, semanales y mensuales."
+    >
+
+    <link
+        rel="stylesheet"
+        href="/stilo.css"
+    >
+
+    <link
+        rel="icon"
+        href="/img/logo.png"
+        type="image/x-icon"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+
+    <!-- =====================================================
+         META PIXEL
+         ===================================================== -->
+
+    <script>
+
+        !function(f,b,e,v,n,t,s)
+        {
+            if(f.fbq)return;
+
+            n=f.fbq=function(){
+                n.callMethod ?
+                n.callMethod.apply(n,arguments) :
+                n.queue.push(arguments)
+            };
+
+            if(!f._fbq)f._fbq=n;
+
+            n.push=n;
+            n.loaded=!0;
+            n.version='2.0';
+            n.queue=[];
+
+            t=b.createElement(e);
+            t.async=!0;
+
+            t.src=v;
+
+            s=b.getElementsByTagName(e)[0];
+
+            s.parentNode.insertBefore(t,s)
+
+        }(
+            window,
+            document,
+            'script',
+            'https://connect.facebook.net/en_US/fbevents.js'
+        );
+
+        fbq(
+            'init',
+            '1558061935844293'
+        );
+
+        fbq(
+            'track',
+            'PageView'
+        );
+
+    </script>
+
+
+    <noscript>
+
+        <img
+            height="1"
+            width="1"
+            style="display:none"
+            src="https://www.facebook.com/tr?id=1558061935844293&ev=PageView&noscript=1"
+        >
+
+    </noscript>
+
+
+</head>
+
+
+<body class="maxitodo-home">
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="home-header">
+
+        <div class="home-header-inner">
+
+            <img
+                src="/img/logo MaxiTodo.png"
+                alt="MaxiTodo"
+                class="home-logo"
+            >
+
+            <a
+                href="https://wa.me/5493855349020"
+                class="header-whatsapp"
+            >
+
+                <i class="bi bi-whatsapp"></i>
+
+                <span>
+                    WhatsApp
+                </span>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <main>
+
+
+        <section class="hero-section">
+
+            <div class="hero-background-circle hero-circle-one"></div>
+            <div class="hero-background-circle hero-circle-two"></div>
+
+
+            <div class="hero-container">
+
+
+                <!-- TEXTO -->
+
+                <div class="hero-content">
+
+                    <span class="hero-label">
+
+                        <i class="bi bi-stars"></i>
+
+                        MAXITODO
+
+                    </span>
+
+
+                    <h1>
+
+                        Equipamiento comercial
+                        <strong>
+                            y electrodomésticos
+                        </strong>
+
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Todo lo que necesitás para tu comercio
+                        y tu hogar, con opciones de financiación
+                        pensadas para vos.
+
+                    </p>
+
+
+                    <!-- BENEFICIOS -->
+
+                    <div class="hero-benefits">
+
+                        <div class="hero-benefit">
+
+                            <i class="bi bi-calendar2-check"></i>
+
+                            <div>
+
+                                <strong>
+                                    Cuotas flexibles
+                                </strong>
+
+                                <span>
+                                    Diarias, semanales y mensuales
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-benefit">
+
+                            <i class="bi bi-credit-card-2-front"></i>
+
+                            <div>
+
+                                <strong>
+                                    Tarjetas de crédito
+                                </strong>
+
+                                <span>
+                                    Aceptamos todas las tarjetas
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-benefit">
+
+                            <i class="bi bi-box-seam"></i>
+
+                            <div>
+
+                                <strong>
+                                    Amplio catálogo
+                                </strong>
+
+                                <span>
+                                    Productos para comercio y hogar
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- BOTONES -->
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="https://proyectofinal-production-a7fb.up.railway.app/products/productosUsuarios"
+                            class="hero-btn hero-btn-primary"
+                        >
+
+                            <i class="bi bi-grid-3x3-gap"></i>
+
+                            Ver catálogo
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+
+                        <a
+                            href="https://wa.me/5493855349020"
+                            class="hero-btn hero-btn-whatsapp"
+                        >
+
+                            <i class="bi bi-whatsapp"></i>
+
+                            Consultar por WhatsApp
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PANEL DERECHO -->
+
+                <div class="hero-panel">
+
+
+                    <div class="hero-panel-glow"></div>
+
+
+                    <div class="hero-panel-card">
+
+
+                        <span class="hero-panel-tag">
+                            SOLUCIONES PARA TU NEGOCIO
+                        </span>
+
+
+                        <h2>
+
+                            Equipá tu comercio
+                            <span>
+                                sin complicaciones
+                            </span>
+
+                        </h2>
+
+
+                        <p>
+
+                            Encontrá equipamiento, tecnología
+                            y electrodomésticos con alternativas
+                            de pago adaptadas a tus necesidades.
+
+                        </p>
+
+
+                        <div class="hero-payment-box">
+
+                            <span>
+                                OPCIONES DE PAGO
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    DIARIAS
+                                </strong>
+
+                                <strong>
+                                    SEMANALES
+                                </strong>
+
+                                <strong>
+                                    MENSUALES
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-panel-footer">
+
+                            <i class="bi bi-shield-check"></i>
+
+                            <span>
+                                Atención personalizada
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CATEGORÍAS
+             ================================================= -->
+
+        <section class="categories-section">
+
+
+            <div class="section-heading">
+
+                <span>
+                    ENCONTRÁ LO QUE NECESITÁS
+                </span>
+
+                <h2>
+                    Productos para cada necesidad
+                </h2>
+
+                <p>
+                    Descubrí nuestro catálogo y encontrá
+                    el producto que estás buscando.
+                </p>
+
+            </div>
+
+
+            <div class="categories-grid">
+
+
+                <a
+                    href="https://proyectofinal-production-a7fb.up.railway.app/products/productosUsuarios"
+                    class="category-card"
+                >
+
+                    <div class="category-icon">
+                        <i class="bi bi-shop"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Equipamiento comercial
+                        </h3>
+
+                        <p>
+                            Soluciones para tu negocio
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right category-arrow"></i>
+
+                </a>
+
+
+                <a
+                    href="https://proyectofinal-production-a7fb.up.railway.app/products/productosUsuarios"
+                    class="category-card"
+                >
+
+                    <div class="category-icon">
+                        <i class="bi bi-house"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Electrodomésticos
+                        </h3>
+
+                        <p>
+                            Productos para tu hogar
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right category-arrow"></i>
+
+                </a>
+
+
+                <a
+                    href="https://proyectofinal-production-a7fb.up.railway.app/products/productosUsuarios"
+                    class="category-card"
+                >
+
+                    <div class="category-icon">
+                        <i class="bi bi-phone"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Tecnología
+                        </h3>
+
+                        <p>
+                            Celulares y accesorios
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right category-arrow"></i>
+
+                </a>
+
+
+                <a
+                    href="https://proyectofinal-production-a7fb.up.railway.app/products/productosUsuarios"
+                    class="category-card"
+                >
+
+                    <div class="category-icon">
+                        <i class="bi bi-grid"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Ver todo el catálogo
+                        </h3>
+
+                        <p>
+                            Todos nuestros productos
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right category-arrow"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             FINANCIACIÓN
+             ================================================= -->
+
+        <section class="financing-section">
+
+
+            <div class="financing-container">
+
+
+                <div class="financing-heading">
+
+                    <span>
+                        COMPRÁ DE LA FORMA QUE TE CONVENGA
+                    </span>
+
+                    <h2>
+                        Opciones de pago pensadas para vos
+                    </h2>
+
+                    <p>
+                        Elegí la modalidad que mejor se adapte
+                        a tus posibilidades.
+                    </p>
+
+                </div>
+
+
+                <div class="financing-grid">
+
+
+                    <div class="financing-card">
+
+                        <div class="financing-icon">
+                            <i class="bi bi-calendar-day"></i>
+                        </div>
+
+                        <h3>
+                            Pago diario
+                        </h3>
+
+                        <p>
+                            Una alternativa práctica para
+                            organizar tus pagos día a día.
+                        </p>
+
+                    </div>
+
+
+                    <div class="financing-card financing-card-featured">
+
+                        <div class="financing-icon">
+                            <i class="bi bi-calendar-week"></i>
+                        </div>
+
+                        <h3>
+                            Pago semanal
+                        </h3>
+
+                        <p>
+                            Organizá tus pagos semanalmente
+                            y equipá tu negocio.
+                        </p>
+
+                        <span class="financing-badge">
+                            MUY ELEGIDO
+                        </span>
+
+                    </div>
+
+
+                    <div class="financing-card">
+
+                        <div class="financing-icon">
+                            <i class="bi bi-calendar-month"></i>
+                        </div>
+
+                        <h3>
+                            Pago mensual
+                        </h3>
+
+                        <p>
+                            Una opción para planificar tus
+                            pagos mes a mes.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="cards-payment">
+
+                    <i class="bi bi-credit-card-2-front"></i>
+
+                    <div>
+
+                        <strong>
+                            Aceptamos tarjetas de crédito
+                        </strong>
+
+                        <span>
+                            Consultá las promociones disponibles
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONFIANZA
+             ================================================= -->
+
+        <section class="trust-section">
+
+
+            <div class="trust-content">
+
+
+                <div class="trust-text">
+
+                    <span>
+                        MAXITODO
+                    </span>
+
+                    <h2>
+                        Tu próximo producto
+                        empieza acá.
+                    </h2>
+
+                    <p>
+                        Estamos para ayudarte a encontrar
+                        el producto que necesitás y la forma
+                        de pago que mejor se adapte a vos.
+                    </p>
+
+
+                    <a
+                        href="https://wa.me/5493855349020"
+                        class="trust-button"
+                    >
+
+                        <i class="bi bi-whatsapp"></i>
+
+                        Hablar con un asesor
+
+                    </a>
+
+                </div>
+
+
+                <div class="trust-features">
+
+
+                    <div>
+
+                        <i class="bi bi-person-check"></i>
+
+                        <span>
+                            Atención personalizada
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-credit-card"></i>
+
+                        <span>
+                            Múltiples medios de pago
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-box-seam"></i>
+
+                        <span>
+                            Amplio catálogo
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-geo-alt"></i>
+
+                        <span>
+                            Estamos en Santiago del Estero
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="home-footer">
+
+
+        <div class="footer-main">
+
+
+            <img
+                src="/img/logo MaxiTodo.png"
+                alt="MaxiTodo"
+                class="footer-logo"
+            >
+
+
+            <p>
+                Equipamiento comercial,
+                electrodomésticos y más.
+            </p>
+
+
+            <div class="footer-social">
+
+
+                <a
+                    href="https://www.tiktok.com/@maxitodo312?_r=1&_t=ZS-95xXA9aYKB7"
+                    aria-label="TikTok"
+                >
+                    <i class="bi bi-tiktok"></i>
+                </a>
+
+
+                <a
+                    href="https://www.facebook.com/share/16mCenbHYz/"
+                    aria-label="Facebook"
+                >
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+
+                <a
+                    href="https://www.instagram.com/maxitodo_312?igsh=MTN5dXI4bHV6MmJhaw=="
+                    aria-label="Instagram"
+                >
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+
+                <a
+                    href="https://wa.me/5493855349020"
+                    aria-label="WhatsApp"
+                >
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+
+
+                <a
+                    href="https://maps.app.goo.gl/nEZTEtHFdL5z2R7w9"
+                    aria-label="Ubicación"
+                >
+                    <i class="bi bi-geo-alt"></i>
+                </a>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                MaxiTodo
+            </span>
+
+            <span>
+                Equipamiento para comercios y hogares
+            </span>
+
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
 </html>
